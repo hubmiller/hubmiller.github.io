@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지맵</title>
+</head>
+<body>
+    <h1>Image Maps</h1>
+    <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic</p>
+    <img src="images/workplace.jpg" usemap="#workplace">
+    <map name="workplace">
+        <area shape="rect" coords="34,45,271,343" href="https://en.wikipedia.org/wiki/Computer" target="_blank">
+        <area shape="rect" coords="291,172,333,244" href="https://en.wikipedia.org/wiki/Telephone" target="_blank">
+        <area shape="circle" coords="335,299,47" href="https://en.wikipedia.org/wiki/Coffee" target="_blank">
+    </map>
+</body>
+</html>
